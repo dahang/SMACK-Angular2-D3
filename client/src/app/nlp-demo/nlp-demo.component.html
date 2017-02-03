@@ -1,0 +1,12 @@
+
+<div class="container">
+  <div class="card">
+    <div class="card-block text-nowrap">
+      <div class="d3-chart" #chart></div>
+      <textarea name="textIput" id="textIput" [(ngModel)]="textInput" rows="10" maxlength="10000"></textarea>
+    </div>
+    <button type="button" id="refresh" (click)="onClickRefresh()" class="btn btn-primary">Refresh</button>
+    <select name="fileSelector" id="fileSelector"></select>
+    <button type="button" id="genrate"  (click)="onClickGenerate()" class="btn btn-primary">Generate</button>
+  </div>
+</div>

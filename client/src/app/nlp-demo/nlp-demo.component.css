@@ -1,0 +1,37 @@
+.word-cloud {
+  width: 100%;
+  height: 150em;
+}
+
+.word-cloud .axis path,
+.word-cloud .axis line {
+  stroke: #999;
+}
+
+.word-cloud .axis text {
+  fill: #999;
+}
+
+.d3-chart {
+  width: 100%;
+  height: 600px;
+}
+
+.d3-chart .axis path,
+.d3-chart .axis line {
+  stroke: #999;
+}
+
+.d3-chart .axis text {
+  fill: #999;
+}
+
+
+#textIput {
+  width: 100%;
+  height: 100%;
+  font-family:Helvetica;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  /*outline: none;*/
+  resize: both;
+}
